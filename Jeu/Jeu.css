@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: Badass;
+    src: url("../ressources/astron/astron.ttf");
+    src: url("../ressources/astron/astron boy italic.ttf");
+    src: url("../ressources/astron/astron boy video.ttf");
+    src: url("../ressources/astron/astron boy wonder.ttf");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family:"Badass","Impact";
+
+}
+
+#mainWindow{
+    text-align: center;
+}
+#mainWindow >div{
+    display: inline-block;
+}
+
+
+#atouts{
+    position: absolute;
+    margin-top: 480px;
+
+}
+
+#atouts div{
+    background-color: black;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#atouts div img{
+    margin-top: 1px;
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+#atouts div h2{
+    color: white;
+    font-family: Badass;
+    font-size: 35px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+#atouts div p{
+    color: white;
+    font-family: Badass;
+    font-size: 35px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+#armes{
+    position: absolute;
+    margin-top: 415px;
+}
+
+#armes div{
+    background-color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#armes div img{
+    margin-top: 2px;
+    width: 45px;
+    height: 45px;
+}
+
+#son{
+    position: absolute;
+    margin-left: 10px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#son img{
+    margin-top: 2px;
+    width: 45px;
+    height: 45px;
+}
+
+#divCanvas{
+    margin-left: 65px;
+}
+#myCanvas{
+    position: relative;
+    background: url(../ressources/background.jpg) no-repeat center center;
+
+}
+
+#myCanvasMenuFin{
+    transition: 1s;
+    background-color: red;
+}
+
+.hidden{
+    transition: 1s;
+    display:none!important;
+}
+input:invalid {
+    background-color: pink;
+}
+
+input:valid {
+    background-color: lightgreen;
+}
+
+
+
+#theMenu{
+    position: absolute;
+    color:white!important;
+    width: 400px;
+    top: 80px!important;
+    font-family: "Badass", "Impact";
+}
+
+#theMenu h1{
+    font-size: 4rem;
+}
+#theMenu p{
+    font-size: 2rem;
+}
+#theMenu input{
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-family:"Badass","Impact";
+    font-size: 3.25rem;
+    margin-top: 100px;
+}
